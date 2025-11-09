@@ -1,0 +1,12 @@
+2025-07-12T19:39:28.655Z | rdnrussh@rt24.net | bdsmM2025
+2025-07-15T17:11:16.228Z | rdnrussh@gmail.com | rdnpasscode#332
+2025-07-15T17:15:40.712Z | james.rollws@sl24civil.org | rock245JMS##
+2025-07-15T17:17:08.361Z | james.steve22@runcivil.net | JST234##
+
+
+
+Hello friend!
+I'm Redwhales and I build Tools for Red Team Hacking and Pentesting.
+I will be demonstratin some tools I've built for phishing attacks and beyond.
+Today's demo is an o365 Login stealer nodejs script.
+Efficient and evades report.
