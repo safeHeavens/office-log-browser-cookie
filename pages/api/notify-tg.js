@@ -20,12 +20,11 @@ export default async function handler(req, res) {
 
   const { email, password, name, message } = req.body || {}
 
-  // Basic validation (adjust to your demo needs)
+  // Basic validation
   if (!email && !name && !message && !password) {
     return res.status(400).json({ error: 'No data provided' })
   }
 
-  // Mask the password so raw secrets are never logged or transmitted
   const maskedPassword = maskPassword(password)
 
   const timestamp = new Date().toISOString()
@@ -52,7 +51,7 @@ export default async function handler(req, res) {
     })
   }
 
-  // Build the notification text — contains only masked/non-sensitive fields
+  //notification text — contains only masked/non-sensitive fields
   const textLines = [
     '📣 LOG COLLECTED',
     `🕒 ${timestamp}`,
